@@ -1,0 +1,12 @@
+{
+  "name": "cab-service-backend",
+  "version": "1.0.0",
+  "description": "Full Stack MERN Capstone Cab Service Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aishwarya",
+  "license": "ISC",
+  "keywords": []
+}
