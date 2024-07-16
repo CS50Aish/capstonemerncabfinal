@@ -14,3 +14,24 @@ const Header = () => {
         </header>
     )
 }
+
+const headerStyle = {
+    backgroundColor: '#4CAF50',
+    padding: '10px',
+    color: 'white',
+    textAlign: 'center'
+}
+
+const navListStyle = {
+    listStyleType: 'none',
+    margin: 0,
+    padding: 0,
+    overflow: 'hidden'
+}
+
+const navItemStyle = {
+    float: 'left',
+    padding: '0 10px'
+}
+
+export default Header;
