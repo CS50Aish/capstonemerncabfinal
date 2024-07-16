@@ -156,3 +156,118 @@ To address all issues (including breaking changes), run:
   npm audit fix --force
 
 Run `npm audit` for details.
+
+labuser@ubuntu2204:~/Desktop/capstonemerncabfinal$ mkdir cab-service-backend
+labuser@ubuntu2204:~/Desktop/capstonemerncabfinal$ cd cab-service-backend/
+labuser@ubuntu2204:~/Desktop/capstonemerncabfinal/cab-service-backend$ npm init 
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (cab-service-backend) 
+version: (1.0.0) 
+description: Full Stack MERN Capstone Cab Service Application
+entry point: (index.js) 
+test command: 
+git repository: 
+keywords: 
+author: Aishwarya
+license: (ISC) 
+About to write to /home/labuser/Desktop/capstonemerncabfinal/cab-service-backend/package.json:
+
+{
+  "name": "cab-service-backend",
+  "version": "1.0.0",
+  "description": "Full Stack MERN Capstone Cab Service Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aishwarya",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) 
+labuser@ubuntu2204:~/Desktop/capstonemerncabfinal/cab-service-backend$ npm init  -y
+Wrote to /home/labuser/Desktop/capstonemerncabfinal/cab-service-backend/package.json:
+
+{
+  "name": "cab-service-backend",
+  "version": "1.0.0",
+  "description": "Full Stack MERN Capstone Cab Service Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aishwarya",
+  "license": "ISC",
+  "keywords": []
+}
+
+Compiled successfully!
+
+You can now view cab-service in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://10.0.0.4:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+
+labuser@ubuntu2204:~/Desktop/capstonemerncabfinal/cab-service$ npm install express mongoose body-parser cors
+
+added 18 packages, and audited 1568 packages in 5s
+
+262 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (2 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+labuser@ubuntu2204:~/Desktop/capstonemerncabfinal/cab-service$ npm install --save-dev nodemon
+
+added 6 packages, and audited 1574 packages in 4s
+
+263 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (2 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+labuser@ubuntu2204:~/Desktop/capstonemerncabfinal/cab-service-frontend/backend$ cd ..
+labuser@ubuntu2204:~/Desktop/capstonemerncabfinal/cab-service-backend$ cd ..
+labuser@ubuntu2204:~/Desktop/capstonemerncabfinal$ cd cab-service-backend/
+labuser@ubuntu2204:~/Desktop/capstonemerncabfinal/cab-service-backend$ cd backend/
+labuser@ubuntu2204:~/Desktop/capstonemerncabfinal/cab-service-backend/backend$ npm install express mongoose body-parser cors
+
+added 86 packages, and audited 87 packages in 3s
+
+13 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+labuser@ubuntu2204:~/Desktop/capstonemerncabfinal/cab-service-backend/backend$ npm install --save-dev nodemon
+
+added 29 packages, and audited 116 packages in 2s
+
+17 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
