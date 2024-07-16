@@ -1,10 +1,14 @@
-import React from "react";
+import React from 'react';
+import BookingForm from './BookingForm';
+import BookingList from './BookingList';
 
 const MainContent = () => {
     return (
-        <main style={MainContentStyle}>
+        <main style={mainContentStyle}>
             <h2>Welcome to the Home Page</h2>
-            <p>This is the main content section</p>
+            <p>This is the main content section.</p>
+            <BookingForm />
+            <BookingList />
         </main>
     );
 };
