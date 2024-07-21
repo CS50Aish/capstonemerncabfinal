@@ -310,4 +310,17 @@ labuser@ubuntu2204:~/Desktop/capstonemerncabfinal/cab-service-backend$ npm run s
 (node:7470) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
 Server is running on port 5000
 
+labuser@ubuntu2204:~/Desktop/capstonemerncabfinal/cab-service-backend$ npm run server
 
+> cab-service-backend@1.0.0 server
+> nodemon backend/server.js
+
+[nodemon] 3.1.4
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node backend/server.js`
+(node:10689) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10689) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+Server is running on port 5000
