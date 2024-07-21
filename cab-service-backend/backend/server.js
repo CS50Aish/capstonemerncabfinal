@@ -14,8 +14,9 @@ mongoose.connect('mongodb://localhost:27017/cabBookingDB', {
 app.use(cors());
 app.use(bodyParser.json());
 
-// const bookingRoutes = require('./routes/bookings');
-// app.use('/bookings', bookingRoutes);
+const bookingRoutes = require('./routes/bookings');
+
+app.use('/bookings', bookingRoutes);
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
