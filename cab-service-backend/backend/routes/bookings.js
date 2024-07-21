@@ -21,6 +21,28 @@ router.get('/', async(req, res) => {
     catch(err){
         res.status(500).json({message: err.message});
     }
-});
+})
+
+router.put('/:id', async(req, res) => {
+    try{
+        const updateBooking = await Booking.findByIdAndUpdate(req.params.id, req.body, { new: true} );
+        res.status(200).json(updateBooking);
+    }
+    catch(err){
+        res.status(400).json({message: err.message});
+    }
+})
+
+router.delete('/:id', async(req, res) => {
+    try{
+        await Booking.findByIdAndDelete(req.params.id);
+        res.status(200).json({message: 'Booking Deleted'});
+    }
+    catch(err){
+        res.status(400).json({message: err.message});
+    }
+})
+
+
 
 module.exports = router;
