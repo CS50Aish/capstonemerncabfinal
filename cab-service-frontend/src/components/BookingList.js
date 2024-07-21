@@ -25,8 +25,8 @@ const BookingList = () => {
             <ul>
                 {bookings.map((booking) => (
                     <li key={booking._id}>
-                        {booking.employeeName} booked from 
-                        {booking.pickupLocation} to 
+                        {booking.employeeName} booked cab from &nbsp;
+                        {booking.pickupLocation} to &nbsp;
                         {booking.dropLocation} on {new Date(booking.bookingDate).toLocaleDateString()}
                     </li>
                 ))}
