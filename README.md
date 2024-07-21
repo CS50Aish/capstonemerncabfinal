@@ -271,3 +271,26 @@ added 29 packages, and audited 116 packages in 2s
   run `npm fund` for details
 
 found 0 vulnerabilities
+
+{
+  "name": "cab-service-backend",
+  "version": "1.0.0",
+  "description": "Full Stack MERN Capstone Cab Service Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "author": "Aishwarya",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

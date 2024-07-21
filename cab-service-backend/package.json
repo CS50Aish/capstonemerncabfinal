@@ -4,7 +4,8 @@
   "description": "Full Stack MERN Capstone Cab Service Application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
   },
   "author": "Aishwarya",
   "license": "ISC",
